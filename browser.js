@@ -12,7 +12,7 @@ document.getElementById("mode").onchange = function(){
 		if (e.key === 'Enter'){
 			var newScript = document.createElement('iframe');
 			newScript.src = ""+mode+""+document.getElementById("url").value+""
-			newScript.style = "width: 100%; height: 100%"
+			newScript.style = "width: 960px; height: 540px"
 			var scene = document.getElementById('browser')
 			var tabs = 2
 			if(scene.hasChildNodes() === true){
