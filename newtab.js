@@ -4,8 +4,8 @@ document.getElementById("newtab").onclick = function(){
 	newScript.id = "tab"+n+""
 	newScript.src = "tab.html"
 	if (n === 1){
-		newScript.width = "480"
-		newScript.height = "320"
+		newScript.width = "960"
+		newScript.height = "640"
 	} else {
 		newScript.width = "0"
 		newScript.height = "0"
