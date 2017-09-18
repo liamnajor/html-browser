@@ -19,7 +19,7 @@ document.getElementById("newtab").onclick = function(){
 	var div = document.getElementById('head')
 	div.appendChild(input);
 	var newScript = document.createElement('script');
-	newScript.innerHTML = "var tab"+n+" = document.getElementById('tab"+n+"'); var button = document.getElementById('"+n+"'); button.onclick = function(){if (tab"+n+".width === '0' && tab"+n+".height === '0'){tab"+n+".width = 480; tab"+n+".height = 320} else {tab"+n+".width = 0; tab"+n+".height = 0}}"
+	newScript.innerHTML = "var tab"+n+" = document.getElementById('tab"+n+"'); var button = document.getElementById('"+n+"'); button.onclick = function(){if (tab"+n+".width === '0' && tab"+n+".height === '0'){tab"+n+".width = 960; tab"+n+".height = 640} else {tab"+n+".width = 0; tab"+n+".height = 0}}"
 	var scene = document.getElementById('tab')
 	scene.appendChild(newScript);
 	n += 1
